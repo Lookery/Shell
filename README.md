@@ -1,16 +1,6 @@
 # Shell
 主要写一些平时积累的命令行，不确定时间更新
 
-# 关于“：”不得不记得事
-全选某个维度
-```
-reverse = reverse[:, :, -1]
-```
-反转
-```
-reverse = reverse[::-1]
-```
-
 # file path & file name
 不含后缀带路径的文件名:
 ```
@@ -28,8 +18,6 @@ filename = os.path.basename(filepath)
 ```
 filename= filename.split('.')[0]
 ```
-
-
 
 # Environment
 
