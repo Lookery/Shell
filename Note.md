@@ -43,7 +43,6 @@ value -- 可选，如果指定键的值不存在时，返回该默认值。
 查询是否在字典中有这个key
 ```
 i in dic
-if dic[i]
 ```
 ## 字符串(Str)
 Python和Java字符串都被设计成「不可变」的类型,因此修改需要赋给新的（C++可以）
@@ -58,3 +57,32 @@ return "".join(s)
 ```
 s.replace(" ","%20")
 ```
+
+# collections模块
+双向队列（deque）
+类似于list的容器，可以快速的在队列头部和尾部添加、删除元素
+```
+append()
+appendleft()
+extend()
+extendleft()
+pop()
+popleft()
+count()
+insert(index,obj)
+rotate(n)
+clear()
+remove()
+maxlen
+```
+计数器（Counter）
+dict的子类，计算可hash的对象
+
+默认字典（defaultdict）
+dict的子类，可以调用提供默认值的函数
+
+有序字典（OrderedDict）
+dict的子类，可以记住元素的添加顺序
+
+可命名元组（namedtuple）
+可以创建包含名称的tuple
