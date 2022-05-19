@@ -58,6 +58,15 @@ return "".join(s)
 s.replace(" ","%20")
 ```
 
+## 二叉树(TreeNode)、
+```
+class TreeNode:
+  def __init__(self, x):
+    self.val = x
+    self.left = None
+    self.right = None
+```
+这里可以查询当前结点是否为空！
 # collections模块
 双向队列（deque）
 类似于list的容器，可以快速的在队列头部和尾部添加、删除元素
